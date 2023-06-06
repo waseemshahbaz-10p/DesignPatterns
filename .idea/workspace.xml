@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e921c37-48b1-41a6-9204-b2a71e031173" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/Main.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/MargheritaPizza.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/MargheritaPizzaFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/PepperoniPizza.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/PepperoniPizzaFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/Pizza.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/PizzaFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/VeggiePizza.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/AbstractFactory/VeggiePizzaFactory.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Patterns/AbstractFactory/Pizza.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/Builder/House$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/Builder/House$Builder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/Builder/House.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Patterns/Builder/Main.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Patterns/Builder/House.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,42 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pizza.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Patterns/AbstractFactory/Pizza.java">
+      <file leaf-file-name="House.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Patterns/Builder/House.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="125" column="29" lean-forward="false" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+            <state relative-caret-position="233">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1165#1166#0" expanded="true" />
                 <element signature="e#1223#1224#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#1497#1498#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1632#1633#0" expanded="true" />
-                <element signature="e#1721#1722#0" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
+                <element signature="e#1269#1270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,7 +57,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Patterns/AbstractFactory/Pizza.java" />
+        <option value="$PROJECT_DIR$/.idea/src.Patterns.AbstractFactory/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/Patterns/Builder/House.java" />
       </list>
     </option>
   </component>
@@ -116,9 +84,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,11 +128,11 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Patterns.AbstractFactory.*" />
+          <option name="PATTERN" value="Patterns.Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Patterns.AbstractFactory.Main" />
+      <option name="MAIN_CLASS_NAME" value="Patterns.Builder.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -315,7 +283,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33005464" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25555557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -339,22 +307,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/logger.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/Vehicle.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/main.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
@@ -378,20 +343,8 @@
     <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/logger.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/Vehicle.java" />
+    <entry file="file://$PROJECT_DIR$/src/Patterns/factorymethod/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/main.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
@@ -404,52 +357,13 @@
     <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
     <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
     <entry file="file://$PROJECT_DIR$/.idea/src.Patterns.AbstractFactory/Pizza.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Singleton/DirectoryManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/SingletonPattern/DirectoryManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/Patterns/AbstractFactory/Pizza.java">
+    <entry file="file://$PROJECT_DIR$/src/Patterns/Builder/House.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="125" column="29" lean-forward="false" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+        <state relative-caret-position="233">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
             <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1632#1633#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
           </folding>
         </state>
       </provider>
